@@ -146,7 +146,7 @@ int dlink_append(int* val)
  * @param begin start subscribe
  * @param end end subscribe
  */
-void reverse(int begin, int end)
+void link_reverse(int begin, int end)
 {
 	while(begin < end)
 	{
@@ -176,7 +176,7 @@ int main()
 	printf("\n");
 	printf("please input data k: ");
 	scanf("%d", &in);
-	reverse(0,in-1);
+	link_reverse(0,in-1);
 	for(i=0; i<6; i++)
 	printf("%d ", *(get_node(i)->num));
 	printf("\n");
