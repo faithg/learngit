@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Bubble	bubble.c	/^static void Bubble(int* arr, int count)$/;"	f	file:
+EData	dijkstra.c	/^}EData;$/;"	t	typeref:struct:_EdgeData	file:
+Graph	dijkstra.c	/^}Graph, *PGraph;$/;"	t	typeref:struct:_graph	file:
+INF	dijkstra.c	6;"	d	file:
+LEFT	heap.c	10;"	d	file:
+LENGTH	dijkstra.c	8;"	d	file:
+MAX	dijkstra.c	5;"	d	file:
+MAX	merge.c	4;"	d	file:
+PGraph	dijkstra.c	/^}Graph, *PGraph;$/;"	t	typeref:struct:_graph	file:
+Quick_sort	quick.c	/^static void Quick_sort(int* arr, int begin, int end)$/;"	f	file:
+RIGHT	heap.c	11;"	d	file:
+Select_sort	selection.c	/^static void Select_sort(int* arr, int len)$/;"	f	file:
+Shell_sort	shell.c	/^static void Shell_sort(int* arr, int len)$/;"	f	file:
+_EdgeData	dijkstra.c	/^typedef struct _EdgeData$/;"	s	file:
+_graph	dijkstra.c	/^typedef struct _graph$/;"	s	file:
+bucket_sort	bucket.c	/^void bucket_sort(int* arr, int len)$/;"	f
+buf	bucket.c	/^int buf[1000] = {0};$/;"	v
+create_example_graph	dijkstra.c	/^Graph* create_example_graph()$/;"	f
+create_graph	dijkstra.c	/^Graph* create_graph()$/;"	f
+dijkstra	dijkstra.c	/^void dijkstra(Graph G, int vs, int prev[], int dist[])$/;"	f
+edgnum	dijkstra.c	/^	int edgnum;$/;"	m	struct:_graph	file:
+end	dijkstra.c	/^	char end;$/;"	m	struct:_EdgeData	file:
+first_vertix	dijkstra.c	/^static int first_vertix(Graph G, int v)$/;"	f	file:
+get_position	dijkstra.c	/^static int get_position(Graph G, char ch)$/;"	f	file:
+heap_min	heap.c	/^static void heap_min(int* arr, int len)$/;"	f	file:
+heap_sort	heap.c	/^static void heap_sort(int* arr, int len)$/;"	f	file:
+insert_sort	insert.c	/^static void insert_sort(int* arr, int len)$/;"	f	file:
+isLetter	dijkstra.c	7;"	d	file:
+main	bubble.c	/^int main()$/;"	f
+main	bucket.c	/^int main()$/;"	f
+main	dijkstra.c	/^void main()$/;"	f
+main	heap.c	/^int main()$/;"	f
+main	insert.c	/^int main()$/;"	f
+main	merge.c	/^int main()$/;"	f
+main	radix.c	/^int main()$/;"	f
+main	selection.c	/^int main()$/;"	f
+main	shell.c	/^int main()$/;"	f
+matrix	dijkstra.c	/^	int matrix[MAX][MAX];$/;"	m	struct:_graph	file:
+merge	merge.c	/^static void merge(int* arr, int p, int q, int r)$/;"	f	file:
+merge_sort	merge.c	/^static void merge_sort(int* arr, int p, int r)$/;"	f	file:
+next_vertix	dijkstra.c	/^static int next_vertix(Graph G, int v, int w)$/;"	f	file:
+radix_sort	radix.c	/^void radix_sort(int* arr, int len)$/;"	f
+read_char	dijkstra.c	/^static char read_char()$/;"	f	file:
+start	dijkstra.c	/^	char start;$/;"	m	struct:_EdgeData	file:
+swap	bubble.c	/^static void swap(int* a, int* b)$/;"	f	file:
+swap	heap.c	/^static void swap(int* a, int* b)$/;"	f	file:
+swap	quick.c	/^static void swap(int* a, int* b)$/;"	f	file:
+swap	radix.c	/^void swap(int* a, int* b)$/;"	f
+swap	selection.c	/^static void swap(int* a, int* b)$/;"	f	file:
+vexnum	dijkstra.c	/^	int vexnum;$/;"	m	struct:_graph	file:
+vexs	dijkstra.c	/^	char vexs[MAX];$/;"	m	struct:_graph	file:
+weight	dijkstra.c	/^	int weight;$/;"	m	struct:_EdgeData	file:
