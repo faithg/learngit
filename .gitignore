@@ -28,3 +28,4 @@
  core
  tags
  *.swp
+ *.c~
