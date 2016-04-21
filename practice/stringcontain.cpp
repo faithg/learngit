@@ -44,5 +44,5 @@ int main()
 	printf("b1 = %d\n", b1);
 	printf("b2 = %d\n", b2);
 	return 0;
-
+}
 
